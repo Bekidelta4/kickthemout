@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -.- coding: utf-8 -.-
 # kickthemout.py
-# authors: k4m4 & xdavidhu
+# authors: DELTA4
 
 """
 Copyright (C) 2016 Nikolaos Kamarinakis (nikolaskam@gmail.com) & David Schütz (xdavid@protonmail.com)
@@ -41,12 +41,15 @@ except:
 def heading():
     spaces = " " * 76
     sys.stdout.write(GREEN + spaces + """
-    █  █▀ ▄█ ▄█▄    █  █▀    ▄▄▄▄▀  ▄  █ ▄███▄   █▀▄▀█  ████▄   ▄      ▄▄▄▄▀
-    █▄█   ██ █▀ ▀▄  █▄█   ▀▀▀ █    █   █ █▀   ▀  █ █ █  █   █    █  ▀▀▀ █
-    █▀▄   ██ █   ▀  █▀▄       █    ██▀▀█ ██▄▄    █ ▄ █  █   █ █   █     █
-    █  █  ▐█ █▄  ▄▀ █  █     █     █   █ █▄   ▄▀ █   █  ▀████ █   █    █
-     █    ▐ ▀███▀    █     ▀         █  ▀███▀      █         █▄ ▄█   ▀
-     ▀               ▀               ▀             ▀           ▀▀▀
+    █  
+    
+    §§§§§      §§§§§  §§§§    §§§§  §§§§     §§§§  §§§§§§§§§§§    §§§§§§§§§  §§§§§§§§§
+    §§§§§      §§§§§  §§§§    §§§§  §§§§ §   §§§§      §§§        §§§§       §§§     §§
+    §§§§§§§§§§§§§§§§  §§§§    §§§§  §§§§  §  §§§§      §§§        §§§§§§§    §§§    §§
+    §§§§§      §§§§§  §§§§    §§§§  §§§§   § §§§§
+    
+    
+    
     """ + END + BLUE +
     '\n' + '{0}Kick Devices Off Your LAN ({1}KickThemOut{2}){3}'.format(YELLOW, RED, YELLOW, BLUE).center(98) +
     '\n' + 'Made With <3 by: {0}Nikolaos Kamarinakis ({1}k4m4{2}) & {0}David Schütz ({1}xdavidhu{2}){3}'.format(
